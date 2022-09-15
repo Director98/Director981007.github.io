@@ -1,0 +1,209 @@
+*{padding: 0; margin: 0;}
+
+
+body{
+  background: #ff4500;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+ /* header stylesheet*/
+  header{
+    position:sticky ;
+    width: 100%;
+  }
+ .top-nav1{
+   background: #2d6b0c;
+   text-align: center;
+   margin-bottom: 300px;
+ }
+.top-nav1 ul{
+   display: inline-flex;
+   list-style: none;
+   color: #fff;
+ }
+ .top-nav1 ul li{
+   width: 120px;
+   margin: 15px;
+   padding: 15px;
+ }
+.top-nav1 ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.active, .top-nav1 ul li:hover{
+  background: #fbcd00;
+  border-radius: 2.5px;
+}
+.produts-sub{
+  display: none;
+}
+.top-nav1 ul li:hover .produts-sub{
+   display: block;
+   position:absolute;
+   background: #2d6b0c;
+   margin-top: 15px;
+   margin-left: -15px;
+ }
+ .top-nav1 ul li:hover .produts-sub ul{
+   display: block;
+   margin: 10px;
+ }
+ .top-nav1 ul li:hover .produts-sub ul li{
+width: 120px;
+padding: 5px;
+border-bottom: 1px solid #fff;
+background: transparent;
+border-radius: 0.15px;
+text-align: left;
+ }
+.top-nav1 ul li:hover .produts-sub ul li:last-child{
+  border-bottom: none;
+  }
+.top-nav1 ul li:hover .produts-sub ul li a:hover{
+  color: #ffbf00;
+}
+.underline{
+}
+/*header STYLE END*/
+/*fieldset*/
+.usajili{
+  width: 400px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4px solid green;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: green;
+  border-radius: 15px;
+  box-shadow: 0 10px 29px rgba(178, 222, 39,1);
+  padding-left: 0px;
+  margin-right: 450px;
+  color: white;
+}
+.fieldset{
+    align-items: center;
+
+}
+
+/*SLIDESHOW*/
+
+/*SLIDESHOW end*/
+/*footer start*/
+.footer1{
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to right, #0F1904,#A6F23D);
+border-top-left-radius: 20%;
+color: #fff;
+padding-top: 30px;
+}
+
+.Row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}/
+.column{
+  flex-basis: 20%;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo1{
+  border-radius: 55%;
+  margin-bottom: 30px;
+}
+.column h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  color: #fff;
+}
+p{
+  text-decoration: none;
+  color: #fff;
+  cursor: none;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+form{
+  padding-bottom:15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+form .fa{
+  font-size: 18px;
+  margin-right: 10px;
+}
+form input{
+  width: 100%;
+background: transparent;
+color:  #cyan;
+border: o;
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+form button .fa{
+  font-size: 16px;
+  colp: #cyan;
+}
+.socialMedia .fa{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+}
+.copyright{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+/*LeafyGreens*/
+.row1{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+img{
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 10px 29px rgba(178, 222, 39,0.5);
+
+}
+.produts h3{
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  background-color:
+}
